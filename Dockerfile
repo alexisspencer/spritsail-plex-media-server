@@ -55,7 +55,7 @@ RUN curl -fsSL -o plexmediaserver.deb https://downloads.plex.tv/plex-media-serve
  && dpkg-deb -x plexmediaserver.deb . \
     \
  && rm -r \
-        etc/ usr/share/ \
+        etc/usr/share/ \
         plexmediaserver.deb \
     \
  && cd usr/lib/plexmediaserver \
